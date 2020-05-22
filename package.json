@@ -1,0 +1,26 @@
+{
+    "name": "ulang",
+    "displayName": "木兰编程语言",
+    "description": "语法高亮",
+    "version": "0.0.1",
+    "publisher": "CodeInChinese",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ulang",
+            "aliases": ["木兰", "ulang"],
+            "extensions": [".ul"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ulang",
+            "scopeName": "source.ulang",
+            "path": "./syntaxes/ulang.tmLanguage.json"
+        }]
+    }
+}

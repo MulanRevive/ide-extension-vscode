@@ -2,6 +2,10 @@
 
 代码基本语法高亮
 
+![](截图/高阶函数.png)
+
+更多测试代码在[木兰复现原型](https://github.com/MulanRevive/prototype)。
+
 ## Features
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.

@@ -4,7 +4,9 @@
 
 ![](截图/全部元素.png)
 
-更多测试代码在[木兰复现原型](https://github.com/MulanRevive/prototype)。
+更多示例请见基于原 exe 的[用户手册](https://github.com/MulanRevive/bounty/tree/master/%E5%A4%8D%E7%8E%B0%E6%96%87%E6%A1%A3/%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C)编写过程中积累的[测试用例](https://github.com/MulanRevive/bounty/blob/master/%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81/%E6%B5%8B%E8%AF%95.py), 与[原型搭建](https://github.com/MulanRevive/prototype)过程中积累至今的[测试](https://github.com/MulanRevive/prototype/blob/master/%E6%B5%8B%E8%AF%95.py)
+
+运行代码请安装`pip install mulang`，PyPI 发布[在此](https://pypi.org/project/mulang/)。
 
 ## Features
 

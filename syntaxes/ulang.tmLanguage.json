@@ -3,26 +3,37 @@
 	"name": "木兰",
 	"patterns": [
 		{
-			"include": "#keywords"
+			"include": "#关键字"
+		},
+		{
+			"include": "#常量"
 		},
 		{
 			"include": "#strings"
 		}
 	],
 	"repository": {
-		"keywords": {
+		"关键字": {
 			"patterns": [
 				{
 					"name": "keyword.control.ulang",
-					"match": "\\b(if|elif|else|return)\\b"
+					"match": "\\b(if|elif|else|return|while|break|continue)\\b"
 				},
 				{
-					"name": "keyword.function.ulang",
+					"name": "keyword.compute.ulang",
+					"match": "\\b(and|or)\\b"
+				},
+				{
+					"name": "keyword.other.ulang",
 					"match": "\\b(func)\\b"
-				},
+				}
+			]
+		},
+		"常量": {
+			"patterns": [
 				{
-					"name": "keyword.loop.ulang",
-					"match": "\\b(while|break|continue)\\b"
+					"name": "constant.numeric",
+					"match": "\\d+"
 				}
 			]
 		},

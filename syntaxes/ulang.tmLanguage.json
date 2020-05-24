@@ -9,6 +9,9 @@
 			"include": "#常量"
 		},
 		{
+			"include": "#注释块"
+		},
+		{
 			"include": "#strings"
 		}
 	],
@@ -17,7 +20,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.ulang",
-					"match": "\\b(if|elif|else|return|while|break|continue)\\b"
+					"match": "\\b(if|elif|else|return|while|break|continue|for|in)\\b"
 				},
 				{
 					"name": "keyword.compute.ulang",
@@ -34,6 +37,21 @@
 				{
 					"name": "constant.numeric",
 					"match": "\\d+"
+				},
+				{
+					"name": "constant.language",
+					"match": "\\b(true|false)\\b"
+				}
+			]
+		},
+		"注释块": {
+			"name": "comment.block",
+			"begin": "/\\*",
+			"end": "\\*/",
+			"patterns": [
+				{
+					"name": "constant.character",
+					"match": "\\\\."
 				}
 			]
 		},

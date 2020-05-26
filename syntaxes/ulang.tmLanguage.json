@@ -12,6 +12,9 @@
 			"include": "#注释块"
 		},
 		{
+			"include": "#注释行"
+		},
+		{
 			"include": "#strings"
 		}
 	],
@@ -52,6 +55,14 @@
 				{
 					"name": "constant.character",
 					"match": "\\\\."
+				}
+			]
+		},
+		"注释行": {
+			"patterns": [
+				{
+					"name": "comment.line.double-slash.ulang",
+					"match": "\\/\\/.*"
 				}
 			]
 		},

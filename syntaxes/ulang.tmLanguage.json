@@ -23,7 +23,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.ulang",
-					"match": "\\b(if|elif|else|return|while|break|continue|for|in|\\.\\.|\\.\\.<)\\b"
+					"match": "\\b(if|elif|else|return|while|break|continue|for|in|\\.\\.|\\.\\.<|using)\\b"
 				},
 				{
 					"name": "keyword.compute.ulang",

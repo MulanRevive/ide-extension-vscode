@@ -31,7 +31,7 @@
 				},
 				{
 					"name": "keyword.other.ulang",
-					"match": "\\b(func)\\b"
+					"match": "\\b(func|type)\\b"
 				}
 			]
 		},

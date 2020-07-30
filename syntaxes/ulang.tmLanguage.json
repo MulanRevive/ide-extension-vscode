@@ -23,7 +23,15 @@
 			"patterns": [
 				{
 					"name": "keyword.control.ulang",
-					"match": "\\b(if|elif|else|return|while|loop|break|continue|for|in|\\.\\.|\\.\\.<|using)\\b"
+					"match": "\\b(if|elif|else|while|loop|break|continue|for|in|\\.\\.|\\.\\.<|using)\\b"
+				},
+				{
+					"name": "keyword.control.flow.jump.ulang",
+					"match": "\\b(return)\\b"
+				},
+				{
+					"name": "keyword.operator.arithmetic.ulang",
+					"match": "(\\-|\\+|\\*)"
 				},
 				{
 					"name": "keyword.compute.ulang",
@@ -39,11 +47,11 @@
 			"patterns": [
 				{
 					"name": "constant.numeric",
-					"match": "\\d+"
+					"match": "\\b(([0-9]+\\.[0-9]+)|[0-9]+)\\b"
 				},
 				{
 					"name": "constant.language",
-					"match": "\\b(true|false)\\b"
+					"match": "\\b(true|false|nil)\\b"
 				}
 			]
 		},

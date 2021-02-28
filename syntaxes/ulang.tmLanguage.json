@@ -21,7 +21,10 @@
 			"include": "#注释行"
 		},
 		{
-			"include": "#strings"
+			"include": "#单引号字符串"
+		},
+		{
+			"include": "#双引号字符串"
 		}
 	],
 	"repository": {
@@ -92,7 +95,18 @@
 				}
 			]
 		},
-		"strings": {
+		"单引号字符串": {
+			"name": "string.quoted.single.ulang",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.ulang",
+					"match": "\\\\."
+				}
+			]
+		},
+		"双引号字符串": {
 			"name": "string.quoted.double.ulang",
 			"begin": "\"",
 			"end": "\"",
